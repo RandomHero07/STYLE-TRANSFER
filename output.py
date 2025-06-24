@@ -8,7 +8,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # --- CONFIG ---
 MODEL_PATH = "hexa.pth"   # Trained model path
 INPUT_IMAGE = "test.jpg"        # Your input image
-OUTPUT_IMAGE = "output.jpg"      # Output styled image
+OUTPUT_IMAGE = "output.jpg"      # Output styled image in the same directory
 IMAGE_SIZE = 256                 # Should match training size
 # ---------------
 
