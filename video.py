@@ -44,7 +44,7 @@ width, height = int(cap.get(3)), int(cap.get(4))
 # VideoWriter: size must match processed frame size
 out = cv2.VideoWriter(OUTPUT_VIDEO_PATH, cv2.VideoWriter_fourcc(*'mp4v'), fps, (IMAGE_SIZE, IMAGE_SIZE))
 
-print("🎥 Stylizing video frames...")
+print("Stylizing video frames...")
 
 frame_count = 0
 while True:
